@@ -1,2 +1,3 @@
 # Myproject
-remzi project
+
+MERN Full stack
