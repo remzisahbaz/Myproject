@@ -13,6 +13,19 @@
   }
 }
 
+.App-brand {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-brand {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +48,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+
+  justify-content: last baseline;
+  position:relative;
+  background: #303036;
+  color: #d3d3d3;
+  height: 200px;
+  text-align: center;
+}
+
+.orta{
+  height: 200px;
+  background-color: antiquewhite;
 }

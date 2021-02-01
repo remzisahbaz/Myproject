@@ -1,0 +1,30 @@
+@import "./scss/bootstrap.scss";
+
+.yukseklik{
+    height: 20px;
+    max-height: 50rem
+}
+
+.resim{
+
+    height: 30px;
+    width: 40px;
+    padding:5px;
+    margin: 0px;
+    margin-bottom: 3px;
+
+}
+
+.saydamlik{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.footer{
+
+    background:#303036;
+    color:#d3d3d3;
+    height: 300px;
+    
+
+}
