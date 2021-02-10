@@ -12,7 +12,7 @@ function App() {
     <nav className="navbar navbar-expand-md navbar-light bg-light">
      <div className="container-fluid">
      <img src={brand} className=" me-2 " alt="" width="40 " height="40"></img>
-   
+     <i class="bi-alarm"></i>
      <a className="navbar-brand fw-bold" width="40 " height="40" href="#/">Remzi ŞAHBAZ</a>
     <button 
     className="navbar-toggler" 
@@ -104,7 +104,9 @@ function App() {
       </div>
         </div>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer...
-        <button type="button" class="btn badge rounded-2 bg-warning">Devamı...</button>
+        <form href="#/">
+        <button  type="submit" class="btn badge rounded-2 bg-warning">
+        <a class="btn badge rounded-2 bg-warning" href="#/">Devamı...</a></button></form>
         </p>
       </div>
      
@@ -217,7 +219,7 @@ function App() {
       </div>
         </div>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer...
-        <button type="button" class="btn badge rounded-2 bg-warning">Devamı...</button>
+        <button type="submit" class="btn badge rounded-2 bg-warning">Devamı...</button>
         </p>
       </div>
      
@@ -279,6 +281,7 @@ function App() {
 {/* ***footer */}
 
 <div className="footer">
+
     <div className="footer-content">
     <div className="footer-section about"></div>
     <div className="footer-section abolinkut"></div>
@@ -287,8 +290,8 @@ function App() {
 
     <div className="footer-bottom">
 
-    <div className="row p-20">
-    <div className="col">
+    <div className="row p-100">
+    <div className="col p-50">
     &copy; remzisahbaz.cf | Designed By Remzi ŞAHBAZ
     Change transition duration
 The transition duration of .carousel-item can be changed with the $carousel-transition Sass variable before compiling or custom styles if you’re using the compiled CSS. If multiple transitions are applied
